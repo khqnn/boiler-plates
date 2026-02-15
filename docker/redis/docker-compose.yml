@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  redis:
+    image: redis:latest
+    container_name: my-redis
+    ports:
+      - "6379:6379" # Expose Redis port to the host
+    volumes:
+      - "./data:/data" # Persist data across restarts
+    restart: unless-stopped # Restart policy

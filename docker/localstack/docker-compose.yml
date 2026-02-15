@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  localstack:
+    image: localstack/localstack:latest
+    ports:
+      - "4566:4566"  # LocalStack edge port
+      - "4510-4559:4510-4559" # Optional port range for various services
+    environment:
+      - SERVICES=kms,s3 # Specify the services you need
+      - AWS_DEFAULT_REGION=us-east-1
+      - LOCALSTACK_HOST=localhost
+    volumes:
+      - "./data:/var/lib/localstack" # Persist data across restarts (optional)

@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin # Simple password for demo purposes
+      MYSQL_DATABASE: app_db
+      MYSQL_USER: app_user
+      MYSQL_PASSWORD: password # Simple password for demo purposes
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./data:/var/lib/mysql"
+    networks:
+      - mysqlnet
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      PMA_HOST: mysql # 'mysql' for local container name
+      PMA_USER: root  # root or the user defined in MYSQL_USER
+      PMA_PASSWORD: admin # match MYSQL_ROOT_PASSWORD or the password defined in MYSQL_PASSWORD
+      UPLOAD_LIMIT: 128M
+    ports:
+      - "8080:80"
+    networks:
+      - mysqlnet
+    restart: unless-stopped
+
+
+networks:
+  mysqlnet:

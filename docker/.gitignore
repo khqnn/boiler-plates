@@ -1,0 +1,9 @@
+.DS_Store
+elastcsearch/data/*
+localstack/data/*
+mongodb/data/*
+mysql/data/*
+mysql/mysql-config/*
+neo4j/neo4j/*
+postgresql/data/*
+redis/data/*

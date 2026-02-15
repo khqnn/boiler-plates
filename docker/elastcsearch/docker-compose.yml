@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=false
+      - ELASTIC_PASSWORD=changeme # <-- Set your password here
+    volumes:
+      - "./data:/usr/share/elasticsearch/data"
+    ports:
+      - "9200:9200"
+    networks:
+      - elastic-net
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -s -k http://localhost:9200 | grep -q 'missing authentication credentials'" ]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+
+networks:
+  elastic-net:
+    driver: bridge
