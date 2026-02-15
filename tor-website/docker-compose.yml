@@ -1,0 +1,32 @@
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: tor-website-nginx
+    volumes:
+      - ./website:/usr/share/nginx/html:ro
+      - ./config/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - tor-net
+    restart: unless-stopped
+
+  tor:
+    build:
+      context: .
+      dockerfile: Dockerfile.tor
+    container_name: tor-website-tor
+    volumes:
+      - ./config/torrc:/etc/tor/torrc:ro
+      - tor-data:/var/lib/tor
+    networks:
+      - tor-net
+    depends_on:
+      - nginx
+    restart: unless-stopped
+
+networks:
+  tor-net:
+    driver: bridge
+
+volumes:
+  tor-data:
+    # Persists hidden service keys and hostname (.onion address)

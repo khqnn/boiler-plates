@@ -1,0 +1,25 @@
+# Tor configuration for hidden service
+# Edit this file to change Tor settings. Restart the tor service after changes.
+
+# === Hidden service (your .onion site) ===
+# Directory where the hidden service keys and hostname are stored
+HiddenServiceDir /var/lib/tor/hidden_service/
+# Forward .onion port 80 to the nginx container
+HiddenServicePort 80 nginx:80
+
+# === Bridges (from bridges@torproject.org) ===
+# Use these if your network blocks or restricts direct Tor connections
+UseBridges 1
+ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+
+# Bridge 1 (primary)
+Bridge obfs4 172.235.141.175:9046 85CB8265C742CA8BE02C57D2947D6AA2C379828C cert=ttf4Yu///go66xmuL59VUvGaVSU5EM+4ZqwGGgawETYXFiWxoIRxnDPJ1ly52dSNZ6osYA iat-mode=0
+
+# Bridge 2 (fallback)
+Bridge obfs4 70.34.206.231:9100 11DE3B8BAE5C53CF99143B15D2C9E05DFB982B80 cert=kk4rJtDOIs+vGYOF4BU7uxebjigX8zwXTfs7R6Z+RWVhD2u5ppgrfZ4jF/f6bPckxjffQw iat-mode=0
+
+# === Optional: if you don't need bridges (e.g. your server can reach Tor directly),
+#    comment out or remove: UseBridges 1, ClientTransportPlugin, and Bridge lines above.
+
+# Logging (optional)
+Log notice stdout
