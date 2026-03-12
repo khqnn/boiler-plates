@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:14-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - "./data:/var/lib/postgresql/data"
+    environment:
+      - POSTGRES_PASSWORD=S3cret
+      - POSTGRES_USER=citizix_user
+      - POSTGRES_DB=citizix_db
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@citizix.com
+      PGADMIN_DEFAULT_PASSWORD: S3cret
+    ports:
+      - '5050:80' # Access pgAdmin in your browser at http://localhost:5050
+    volumes:
+      - "./pgadmin:/var/lib/pgadmin"
+    depends_on:
+      - postgres

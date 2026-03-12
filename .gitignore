@@ -1,1 +1,10 @@
 .DS_Store
+Elasticsearch Docker Compose/data/*
+Localstack Docker Compose/data/*
+MongoDB Docker Compose/data/*
+MySQL Docker Compose/data/*
+MySQL Docker Compose/mysql-config/*
+Neo4j Docker Compose/neo4j/*
+Postgres Docker Compose/data/*
+Postgres Docker Compose/pgadmin/*
+Redis Docker Compose/data/*
