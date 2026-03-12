@@ -1,0 +1,8 @@
+.DS_Store
+*.DS_Store
+**/.DS_Store
+
+**/env/*
+**/myenv/*
+**/__pycache__/*
+**/.ipynb_checkpoints/*
