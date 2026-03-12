@@ -1,0 +1,9 @@
+transformers
+sentence_transformers
+torch
+datasets
+protobuf
+# huggingface_hub[hf_xet]
+hf_xet
+accelerate
+pandas

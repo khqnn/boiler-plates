@@ -1,0 +1,210 @@
+text,label
+Design and implement microservices in Python.,RESPONSIBILITY
+Build and maintain high-throughput data pipelines using Kafka and Spark.,RESPONSIBILITY
+Write unit and integration tests and participate in code reviews.,RESPONSIBILITY
+"Collaborate closely with product, frontend and data-science teams to deliver features.",RESPONSIBILITY
+Own backend services from design through production support.,RESPONSIBILITY
+Optimize database schemas and queries for performance and scalability.,RESPONSIBILITY
+"Implement observability: metrics, logging and tracing for critical services.",RESPONSIBILITY
+Lead on-call rotations and incident response for backend systems.,RESPONSIBILITY
+Mentor junior engineers and provide technical guidance.,RESPONSIBILITY
+Design RESTful APIs and GraphQL endpoints for external consumption.,RESPONSIBILITY
+"Hands-on experience with Python, Django, PostgreSQL, Docker and Kubernetes.",TECH
+Experience developing services with FastAPI and SQLAlchemy.,TECH
+Proficiency in Java and Spring Boot for building enterprise APIs.,TECH
+"Familiarity with React, Redux and modern frontend toolchains.",TECH
+"Experience with AWS services: EC2, S3, Lambda, and RDS.",TECH
+"Working knowledge of Linux, Bash scripting and CI/CD pipelines.",TECH
+Experience with message queues like RabbitMQ or Kafka.,TECH
+Comfortable with containerization (Docker) and orchestration (Kubernetes).,TECH
+Knowledge of Redis or Memcached for caching layer.,TECH
+Experience using Elasticsearch for search and analytics.,TECH
+Bachelor's degree in Computer Science or a related field.,EDUCATION
+"Master's degree preferred in Computer Science, Engineering, or equivalent.",EDUCATION
+MBA or advanced degree is a plus for senior product-facing roles.,EDUCATION
+"PhD in Machine Learning, Statistics, or related field preferred for research roles.",EDUCATION
+Associate degree acceptable with 5+ years of relevant industry experience.,EDUCATION
+5+ years of experience building backend systems.,EXPERIENCE
+3-5 years of professional experience in software engineering.,EXPERIENCE
+Senior-level candidate with 7+ years in distributed systems design.,EXPERIENCE
+Entry level / Junior engineers with 0-2 years experience are encouraged to apply.,EXPERIENCE
+Minimum 4 years experience working on scalable web services.,EXPERIENCE
+Senior Backend Engineer,TITLE
+Backend Software Engineer - Payments,TITLE
+Full Stack Developer (Node.js / React),TITLE
+Data Engineer - Real-Time Analytics,TITLE
+Machine Learning Researcher,TITLE
+We are building an analytics platform that powers real-time decisions for millions of users.,SUMMARY
+Join a fast-growing startup focusing on developer tools and observability.,SUMMARY
+Small remote team building privacy-first consumer applications.,SUMMARY
+This role is part of the core infrastructure team responsible for scale and reliability.,SUMMARY
+We value strong engineering leadership and a customer-first mindset.,SUMMARY
+Apply online via our careers page at https://example.com/careers,OTHER
+"Benefits include health insurance, 401k match and unlimited PTO.",OTHER
+This role reports to the VP of Engineering.,OTHER
+Please include a short cover letter and links to your GitHub or portfolio.,OTHER
+Relocation assistance available for select candidates.,OTHER
+Implement CI/CD pipelines and maintain deployment automation.,RESPONSIBILITY
+Participate in architecture discussions and influence long-term technical decisions.,RESPONSIBILITY
+Triage production issues and implement long-term fixes.,RESPONSIBILITY
+"Proficient in Node.js, Express and PostgreSQL.",TECH
+Experience building SOAP and REST APIs in legacy systems.,TECH
+Familiar with cloud infrastructure automation using Terraform.,TECH
+Bachelor's degree required or equivalent practical experience.,EDUCATION
+Preferred: 2+ years experience with containerized applications.,EXPERIENCE
+"Salary: $120,000 - $150,000 a year.",OTHER
+"Employment type: Full-time, On-site.",OTHER
+This is a remote freelance contract with a fixed budget.,OTHER
+Seasoned engineer with a background in distributed databases and caching.,EXPERIENCE
+Must have strong communication and collaboration skills.,OTHER
+Experience shipping production machine learning models is a plus.,TECH
+Comfortable working with ambiguous product requirements and shifting priorities.,OTHER
+Docker,TECH
+Kubernetes,TECH
+SQL,TECH
+No degree required; equivalent practical experience accepted.,EDUCATION
+Create and maintain API documentation and developer guides.,RESPONSIBILITY
+Profile and optimize slow queries in PostgreSQL databases.,RESPONSIBILITY
+Implement security best practices and perform threat modelling.,RESPONSIBILITY
+Experience with monitoring tools like Prometheus and Grafana.,TECH
+Lead migrations from monolith to microservices architecture.,RESPONSIBILITY
+Participate in product planning and roadmap discussions.,RESPONSIBILITY
+Design and implement APIs and backend services with a focus on scalability.,RESPONSIBILITY
+Develop and maintain ETL pipelines for data ingestion and transformation.,RESPONSIBILITY
+Own the deployment and CI/CD process for microservices.,RESPONSIBILITY
+Collaborate with product managers to translate requirements into technical solutions.,RESPONSIBILITY
+Perform code reviews and enforce coding standards across the team.,RESPONSIBILITY
+"Hands-on experience with AWS, including S3, EC2, and RDS.",TECH
+"Proficient in Python, FastAPI, SQLAlchemy and PostgreSQL.",TECH
+Experience building containerized applications with Docker.,TECH
+Familiarity with Kubernetes for orchestration and service discovery.,TECH
+Experience with monitoring tools like Prometheus and Grafana.,TECH
+Bachelor's degree in Computer Science or equivalent practical experience.,EDUCATION
+PhD preferred for research-focused roles in machine learning.,EDUCATION
+Associate degree acceptable with strong relevant work history.,EDUCATION
+"Certification in cloud architecture (e.g., AWS Certified Solutions Architect) is a plus.",EDUCATION
+No formal degree required — we value demonstrable experience and portfolio.,EDUCATION
+3+ years of experience in backend development with production systems.,EXPERIENCE
+Minimum 2 years of experience working with relational databases.,EXPERIENCE
+Proven experience leading small engineering teams is required.,EXPERIENCE
+Experience in low-latency systems and performance tuning preferred.,EXPERIENCE
+Entry-level position — 0-1 years of industry experience considered.,EXPERIENCE
+Remote-first company with flexible working hours.,OTHER
+Relocation stipend available for qualified candidates.,OTHER
+Equity options included as part of the total compensation package.,OTHER
+Please include GitHub and portfolio links when applying.,OTHER
+This role reports to the Head of Engineering and works cross-functionally.,OTHER
+Lead Backend Engineer (Payments Integration),TITLE
+Junior Data Engineer,TITLE
+Full Stack Engineer — Node.js / React,TITLE
+Site Reliability Engineer (SRE),TITLE
+Machine Learning Engineer - NLP,TITLE
+We are building a privacy-first messaging platform used by millions.,SUMMARY
+Join our team to work on real-time personalization and recommendation systems.,SUMMARY
+"Be part of a small, agile team shipping weekly iterations.",SUMMARY
+Work on critical infrastructure that processes petabytes of data monthly.,SUMMARY
+Help define the next generation of our developer platform and SDKs.,SUMMARY
+Develop features that improve application security and user privacy.,RESPONSIBILITY
+Analyze system metrics and create dashboards to surface production issues.,RESPONSIBILITY
+Integrate third-party APIs and ensure robust error handling.,RESPONSIBILITY
+Automate repetitive operational tasks with scripts and tooling.,RESPONSIBILITY
+Drive post-incident root cause analysis and remediation.,RESPONSIBILITY
+Experience with Terraform for infrastructure-as-code is required.,TECH
+Strong SQL skills and experience with analytical databases like Redshift.,TECH
+Comfortable with asynchronous programming and message-driven architectures.,TECH
+Experience writing unit and integration tests using pytest or similar.,TECH
+"Familiar with web security concepts (OWASP), authentication and authorization.",TECH
+Master's degree in Computer Science or related field is required.,EDUCATION
+Completed coursework or bootcamp in software engineering welcomed.,EDUCATION
+Professional certification in data engineering is beneficial.,EDUCATION
+5+ years building distributed systems at scale.,EXPERIENCE
+Prior experience at a high-growth startup is preferred.,EXPERIENCE
+Implement authentication and authorization flows including OAuth2 and JWT.,RESPONSIBILITY
+Design data models and normalize schemas to support multi-tenant workloads.,RESPONSIBILITY
+Improve system performance by profiling hotspots and optimizing critical paths.,RESPONSIBILITY
+Create and maintain API versioning strategy and backward compatibility guarantees.,RESPONSIBILITY
+"Drive end-to-end feature delivery from design, implementation to release and monitoring.",RESPONSIBILITY
+Collaborate with QA to create reliable test plans and automate regression suites.,RESPONSIBILITY
+Conduct technical interviews and participate in hiring decisions.,RESPONSIBILITY
+Author runbooks and playbooks for common production incidents.,RESPONSIBILITY
+Experience building services using gRPC and Protocol Buffers.,TECH
+Familiarity with serverless platforms such as AWS Lambda and Azure Functions.,TECH
+Practical knowledge of container orchestration with Docker Compose and Helm.,TECH
+"Proficient with observability stacks: Prometheus, Grafana, and OpenTelemetry.",TECH
+Working experience with message streaming using Redis Streams or Apache Pulsar.,TECH
+Skilled in building asynchronous workers using Celery or RQ.,TECH
+Strong TypeScript experience and familiarity with Node.js runtime patterns.,TECH
+Experience with mobile development using Swift for iOS or Kotlin for Android.,TECH
+Bachelor of Engineering (B.Eng.) in Software Engineering or related discipline.,EDUCATION
+Completion of an accredited computer science degree or equivalent practical experience.,EDUCATION
+"Professional certificate in data science (e.g., Coursera, edX) considered a plus.",EDUCATION
+Relevant vocational training or coding bootcamp accepted for junior roles.,EDUCATION
+"Preferred: Master's in Statistics, Data Science, or Applied Mathematics for analyst roles.",EDUCATION
+"Candidates with an accredited cybersecurity certification (CISSP, CEH) preferred.",EDUCATION
+PhD or strong publication record encouraged for research scientist positions.,EDUCATION
+"10+ years of software engineering experience, with at least 3 years in a lead role.",EXPERIENCE
+2+ years of professional experience developing production APIs.,EXPERIENCE
+Proven track record of delivering projects in Agile environments for 4+ years.,EXPERIENCE
+Experience working in payment processing or fintech industries preferred.,EXPERIENCE
+Background integrating systems with third-party identity providers and SSO.,EXPERIENCE
+Demonstrated experience migrating monolithic applications to microservices.,EXPERIENCE
+"Experience operating services in regulated environments (HIPAA, PCI-DSS) is a plus.",EXPERIENCE
+Previous hands-on experience with data pipeline deployments in production.,EXPERIENCE
+Principal Software Engineer - Backend Platform,TITLE
+"Engineering Manager, Data Infrastructure",TITLE
+"Security Engineer, Application Security",TITLE
+DevOps / Site Reliability Engineer,TITLE
+Frontend Engineer (React / TypeScript),TITLE
+iOS Engineer (Swift) — Mobile Team,TITLE
+Data Scientist — Recommendation Systems,TITLE
+Join our team to build the next-generation developer platform powering thousands of apps.,SUMMARY
+We are a mission-driven company focused on developer productivity and infrastructure.,SUMMARY
+Work on large-scale machine learning pipelines that serve personalized content.,SUMMARY
+Be part of a small team responsible for end-to-end ownership of critical services.,SUMMARY
+"We emphasize engineering quality, mentorship, and continuous learning.",SUMMARY
+Visa sponsorship available for candidates who require work authorization.,OTHER
+This position requires a background check and eligibility to work in the country.,OTHER
+Contract term: 6 months with option to extend based on performance.,OTHER
+Hourly pay range: $45 - $70 depending on experience and location.,OTHER
+Flexible remote policy with optional office days twice per month.,OTHER
+Company offers comprehensive parental leave and mental health benefits.,OTHER
+Relocation assistance available for selected candidates relocating to the office.,OTHER
+Set up end-to-end encryption and secure data-at-rest strategies for customer data.,RESPONSIBILITY
+Hands-on with infrastructure automation using Ansible or Chef.,TECH
+Required: Bachelor's degree or 5+ years of equivalent experience in software engineering.,EDUCATION
+Mid-level role — typically requires 3-6 years of industry experience.,EXPERIENCE
+QA Automation Engineer — Selenium and Cypress experience required.,TITLE
+Qualifications:,OTHER
+Responsibilities:,OTHER
+Requirements:,OTHER
+How to apply:,OTHER
+Benefits:,OTHER
+Company Overview:,OTHER
+Job Type:,OTHER
+Equal Opportunity Employer,OTHER
+Application Instructions:,OTHER
+About the role:,OTHER
+Location:,OTHER
+Salary:,OTHER
+Qualifications: Bachelor's degree in Computer Science.,EDUCATION
+Qualifications: Master's degree preferred in a relevant field.,EDUCATION
+Qualifications: PhD or equivalent research experience required.,EDUCATION
+Qualifications: 5+ years of backend experience required.,EXPERIENCE
+Requirements: Minimum 3 years working in cloud infrastructure.,EXPERIENCE
+Requirements: 2-4 years of professional software engineering experience.,EXPERIENCE
+"Requirements: Experience with Kubernetes, Docker, and Terraform.",TECH
+"Responsibilities: Build APIs using Python, FastAPI and SQLAlchemy.",TECH
+Skills: Proficiency in JavaScript and React required.,TECH
+Responsibilities: Design and implement scalable microservices.,RESPONSIBILITY
+Responsibilities: Lead system design reviews and mentor engineers.,RESPONSIBILITY
+Qualifications,OTHER
+Requirements,OTHER
+Responsibilities,OTHER
+Qualifications: Remote candidates welcome; timezone overlap required.,OTHER
+Requirements: Must be able to pass a background check.,OTHER
+Qualifications: Hands-on experience with PostgreSQL and Redis.,TECH
+Qualifications: Please attach CV and cover letter.,OTHER
+"Bachelor's degree in Computer Science, Software Engineering or related field required.",EDUCATION
+5+ years experience designing distributed systems and production services.,EXPERIENCE
+QUALIFICATIONS:,OTHER
+RESPONSIBILITIES:,OTHER
