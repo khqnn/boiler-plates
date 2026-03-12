@@ -12,7 +12,7 @@ services:
   tor:
     build:
       context: .
-      dockerfile: Dockerfile.tor
+      dockerfile: Dockerfile
     container_name: tor-website-tor
     volumes:
       - ./config/torrc:/etc/tor/torrc:ro
