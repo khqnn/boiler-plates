@@ -1,5 +1,4 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel as PydanticModel
 
 from .models import initialize, register_model, get_model
 from .models.dummy_model import DummyModel
