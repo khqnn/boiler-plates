@@ -1,4 +1,3 @@
-```markdown
 # Setup Server
 
 This guide provides step-by-step instructions to set up a production server with **Nginx**, **Docker Compose**, **Git**, and **SSL** (using Certbot). It includes configuration examples, firewall rules, and placeholders for sensitive information such as domain names, email addresses, and repository URLs.
