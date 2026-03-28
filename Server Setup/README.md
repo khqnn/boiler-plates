@@ -166,7 +166,7 @@ sudo certbot --nginx -d your-domain.com -d www.your-domain.com
 ### For CentOS / RHEL
 ```bash
 sudo apt update
-sudo apt install python3.12-venv
+sudo apt install python3.11-venv
 sudo python3 -m venv /opt/certbot/
 sudo /opt/certbot/bin/pip install --upgrade pip
 sudo /opt/certbot/bin/pip install certbot certbot-nginx
@@ -200,6 +200,30 @@ Refer to your provider’s documentation to add these rules.
 - **Firewall**: If you use `ufw`, allow HTTP/HTTPS with `sudo ufw allow 80/tcp` and `sudo ufw allow 443/tcp`.
 - **Swap**: Use `free -h` to check if swap is active. Adjust size based on server memory.
 - **Port conflicts**: Ensure no other service is using the same ports as Nginx or your application.
+
+---
+
+## Docker Maintenance
+
+To keep your Docker environment clean and free up disk space, you can inspect and prune unused resources.
+
+### Check Docker Disk Usage
+```bash
+docker system df
+```
+
+This shows how much space is used by images, containers, volumes, and build cache.
+
+### Clean Up Unused Resources
+To remove all unused containers, networks, images, and optionally volumes:
+
+```bash
+docker system prune --all --volumes --force
+```
+
+**Warning**: The `--volumes` flag removes all unused volumes. This may delete persistent data (e.g., database files) that are not currently attached to a running container. Use with caution. If you want to keep volumes, omit `--volumes`.
+
+This command is useful when you want to reclaim space after many builds or container runs.
 
 ---
 
